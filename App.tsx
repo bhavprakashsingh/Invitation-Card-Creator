@@ -573,6 +573,11 @@ ${details.rsvpContact ? `📞 https://wa.me/${details.rsvpContact}` : ''}`.trim(
           }
         }
       `}</style>
+
+      {/* Footer */}
+      <footer className="mt-8 py-4 text-center text-sm text-gray-400 border-t border-gray-800">
+        <p>Developed by <span className="text-amber-400 font-semibold">Bhav Prakash Singh</span></p>
+      </footer>
     </div>
   );
 };

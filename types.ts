@@ -111,7 +111,7 @@ export const DEFAULT_DETAILS: InvitationDetails = {
   ],
   
   poeticMessage: "मांगलिक बेला पर आपका स्नेह और आशीर्वाद हमारे लिए अनमोल है।",
-  rsvpName: "समस्त भास्कर एवं सुधाकर परिवार",
+  rsvpName: "Singh परिवार",
   rsvpContact: "",
   
   imageUrl: null,
