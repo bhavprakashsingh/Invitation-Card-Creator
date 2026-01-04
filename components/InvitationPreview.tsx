@@ -160,22 +160,22 @@ export const InvitationPreview: React.FC<InvitationPreviewProps> = ({ details, i
                 </span>
               </div>
               
-              <div className="w-full flex justify-between items-start px-2 md:px-4">
+              <div className="w-full flex justify-between items-start px-1 sm:px-2 md:px-4">
                 {/* Shubh */}
-                <div className={`flex flex-col items-center ${theme.textPrimary} w-20`}>
-                    <div className={`w-14 h-14 border-3 ${theme.border} rounded-lg flex items-center justify-center mb-2 shadow-lg relative overflow-hidden`}
+                <div className={`flex flex-col items-center ${theme.textPrimary} w-16 sm:w-20`}>
+                    <div className={`w-12 h-12 sm:w-14 sm:h-14 border-2 sm:border-3 ${theme.border} rounded-lg flex items-center justify-center mb-1 sm:mb-2 shadow-lg relative overflow-hidden`}
                          style={{
                            background: `linear-gradient(135deg, ${theme.fill}15 0%, ${theme.fill}05 100%)`,
                            transform: 'rotate(45deg)'
                          }}>
-                         <span className="text-2xl font-bold" style={{ transform: 'rotate(-45deg)', color: theme.fill }}>卐</span>
+                         <span className="text-xl sm:text-2xl font-bold" style={{ transform: 'rotate(-45deg)', color: theme.fill }}>卐</span>
                     </div>
-                    <span className={`${fontMain} text-base md:text-lg font-extrabold tracking-wider ${theme.textPrimary} drop-shadow-md`}>{L.shubhLabh[0]}</span>
+                    <span className={`${fontMain} text-sm sm:text-base md:text-lg font-extrabold tracking-wider ${theme.textPrimary} drop-shadow-md`}>{L.shubhLabh[0]}</span>
                 </div>
                 
                 {/* Center Ganesha Image */}
-                <div className="flex flex-col items-center animate-fade-in -mt-2">
-                    <div className={`w-28 h-28 md:w-32 md:h-32 rounded-full border-4 ${theme.border} overflow-hidden shadow-2xl flex items-center justify-center`}
+                <div className="flex flex-col items-center animate-fade-in -mt-2 flex-shrink-0">
+                    <div className={`w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-3 sm:border-4 ${theme.border} overflow-hidden shadow-2xl flex items-center justify-center`}
                          style={{ background: 'linear-gradient(135deg, #fff9e6 0%, #ffffff 100%)' }}>
                         <img
                             src={ganeshaImage}
@@ -183,19 +183,19 @@ export const InvitationPreview: React.FC<InvitationPreviewProps> = ({ details, i
                             className="w-full h-full object-cover"
                         />
                     </div>
-                    <span className={`text-xs md:text-sm font-bold mt-2 tracking-widest uppercase ${theme.textPrimary} drop-shadow-md`}>{L.ganeshMantra}</span>
+                    <span className={`text-xs md:text-sm font-bold mt-1 sm:mt-2 tracking-widest uppercase ${theme.textPrimary} drop-shadow-md`}>{L.ganeshMantra}</span>
                 </div>
 
                 {/* Labh */}
-                <div className={`flex flex-col items-center ${theme.textPrimary} w-20`}>
-                    <div className={`w-14 h-14 border-3 ${theme.border} rounded-lg flex items-center justify-center mb-2 shadow-lg relative overflow-hidden`}
+                <div className={`flex flex-col items-center ${theme.textPrimary} w-16 sm:w-20`}>
+                    <div className={`w-12 h-12 sm:w-14 sm:h-14 border-2 sm:border-3 ${theme.border} rounded-lg flex items-center justify-center mb-1 sm:mb-2 shadow-lg relative overflow-hidden`}
                          style={{
                            background: `linear-gradient(135deg, ${theme.fill}15 0%, ${theme.fill}05 100%)`,
                            transform: 'rotate(45deg)'
                          }}>
-                        <span className="text-2xl font-bold" style={{ transform: 'rotate(-45deg)', color: theme.fill }}>卐</span>
+                        <span className="text-xl sm:text-2xl font-bold" style={{ transform: 'rotate(-45deg)', color: theme.fill }}>卐</span>
                     </div>
-                    <span className={`${fontMain} text-base md:text-lg font-extrabold tracking-wider ${theme.textPrimary} drop-shadow-md`}>{L.shubhLabh[1]}</span>
+                    <span className={`${fontMain} text-sm sm:text-base md:text-lg font-extrabold tracking-wider ${theme.textPrimary} drop-shadow-md`}>{L.shubhLabh[1]}</span>
                 </div>
               </div>
             </div>
