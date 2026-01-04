@@ -141,7 +141,7 @@ export const FormEditor: React.FC<FormEditorProps> = ({
   };
 
   return (
-    <div className="bg-gray-50/80 backdrop-blur-md rounded-2xl shadow-xl h-full flex flex-col overflow-hidden border border-white/50">
+    <div className="bg-gray-50/80 backdrop-blur-md rounded-2xl shadow-xl lg:h-full flex flex-col overflow-hidden border border-white/50">
       
       {/* Header */}
       <div className="bg-white p-4 border-b border-gray-200 flex justify-between items-center sticky top-0 z-10">

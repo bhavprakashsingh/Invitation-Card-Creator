@@ -484,11 +484,11 @@ ${details.rsvpContact ? `📞 https://wa.me/${details.rsvpContact}` : ''}`.trim(
       )}
 
       <main className="max-w-[1600px] mx-auto p-4 md:p-6 lg:p-8">
-        <div className="flex flex-col lg:flex-row gap-6 h-[calc(100vh-100px)]">
+        <div className="flex flex-col lg:flex-row gap-6 lg:h-[calc(100vh-100px)]">
           
           {/* Editor Panel - Scrollable Side */}
-          <div className="lg:w-[400px] xl:w-[450px] shrink-0 h-full overflow-hidden">
-            <FormEditor 
+          <div className="lg:w-[400px] xl:w-[450px] shrink-0 lg:h-full overflow-hidden">
+            <FormEditor
               details={details}
               onChange={handleFieldChange}
               onImageUpload={handleImageUpload}
@@ -498,7 +498,7 @@ ${details.rsvpContact ? `📞 https://wa.me/${details.rsvpContact}` : ''}`.trim(
           </div>
 
           {/* Preview Panel - Centered & Responsive */}
-          <div className="flex-1 bg-neutral-800/50 rounded-2xl p-4 md:p-8 shadow-inner border border-white/5 overflow-y-auto flex items-start justify-center">
+          <div className="flex-1 bg-neutral-800/50 rounded-2xl p-4 md:p-8 shadow-inner border border-white/5 overflow-y-auto flex items-start justify-center min-h-[600px] lg:min-h-0">
             <div id="printable-area" className="w-full flex justify-center scale-[0.85] sm:scale-90 md:scale-100 origin-top transition-transform duration-300">
               <InvitationPreview details={details} innerRef={printRef} />
             </div>
